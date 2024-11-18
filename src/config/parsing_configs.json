@@ -1,0 +1,20 @@
+{
+    "1": {
+      "fields": [
+        {"source": "user_details.id", "target": "id"},
+        {"source": "user_details.first_name", "target": "first_name"},
+        {"source": "user_details.last_name", "target": "last_name"},
+        {"source": "user_details.email", "target": "email"},
+        {"source": "user_details.updated_at", "target": "updated_at"},
+        {"source": "security.mfa_enabled", "target": "mfa_enabled"}
+      ]
+    },
+    "2": {
+      "fields": [
+        {"source": "id", "target": "id"},
+        {"source": "name", "target": "name"},
+        {"source": "status", "target": "status"}
+      ]
+    }
+  }
+  
